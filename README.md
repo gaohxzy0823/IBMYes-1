@@ -3,7 +3,7 @@ fork [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
 
 # 更新内容:
 * `Secrets` 加入 `V2_ID`, `V2_PATH`, `ALTER_ID`,  
-  对应`vmess id`, `ws path`, `alterId`
+  对应`vmess id`, `ws path`, `alterId` 
 * 每周自动更新`v2ray`后重新`push`
 
 
@@ -52,7 +52,7 @@ addEventListener(
 * 点击项目 Actions, 可以看到有个`IBM Cloud Deploy` 正在工作了, 每周会自动部署一次(IBM 10天不用会停).
 
 ### Clash 客户端设置
-这里的客户端用的是`Clash`, 下面为对应的`vmess`部分设置.修改其中的`server`,`uuid`,`path`就好了.
+这里的客户端用的是`Clash`, 下面为对应的`vmess`部分设置.修改其中的`server`,`uuid`,`path`就好了.    
 ```
   - name: "IBM"
     type: vmess
